@@ -815,7 +815,7 @@ public final class PluginApi {
                 connection.setRequestProperty(SECRET_HEADER, secretKey);
             }
             connection.setRequestProperty("Accept", "application/json");
-            connection.setRequestProperty("User-Agent", "Tebex-Java-SDK/3.0.0");
+            connection.setRequestProperty("User-Agent", "Tebex-Java-SDK/1.0.1");
             connection.setConnectTimeout(CONNECT_TIMEOUT_MILLIS);
             connection.setReadTimeout(READ_TIMEOUT_MILLIS);
 
